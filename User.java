@@ -1,12 +1,12 @@
 public class User {
     private String name;
     private int studentId;
-
+    
     public User(String name, int studentId) {
         this.name = name;
         this.studentId = studentId;
     }
-
+    
     // Getters and setters for the private fields
     public String getName() {
         return name;
