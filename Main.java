@@ -11,11 +11,11 @@ public class Main {
         library.addBook(book1);
         library.addBook(book2);
 
-        // Add some users to the library
-        User user1 = new User("ahmad", 12345);
-        User user2 = new User("sara", 54321);
-        library.addUser(user1);
-        library.addUser(user2);
+        // Add some members to the library
+        Member member1 = new Member("ahmad", "ahmad@gmail.com");
+        Member member2 = new Member("sara", "sara@gmail.com");
+        library.addMember(member1);
+        library.addMember(member2);
 
         // Add some admins to the library
         Admin admin1 = new Admin("alireza1", "janesmith@example.com");
