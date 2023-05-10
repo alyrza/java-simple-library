@@ -1,10 +1,11 @@
+package utils;
 import library.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
     private List<Book> books;
-    private List<User> members;
+    private List<Member> members;
     private List<Admin> admins;
 
     public Library() {
@@ -19,7 +20,7 @@ public class Library {
     }
 
     public List<Member> getMembers() {
-        return users;
+        return members;
     }
 
     public List<Admin> getAdmins() {
