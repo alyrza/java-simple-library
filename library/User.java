@@ -1,12 +1,14 @@
+package library;
+
 public class User {
     private String name;
-    private int studentId;
-    
-    public User(String name, int studentId) {
+    private String email;
+
+    public User(String name, String email) {
         this.name = name;
-        this.studentId = studentId;
+        this.email = email;
     }
-    
+
     // Getters and setters for the private fields
     public String getName() {
         return name;
@@ -16,11 +18,11 @@ public class User {
         this.name = name;
     }
 
-    public int getStudentId() {
-        return studentId;
+    public String getEmail() {
+        return email;
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

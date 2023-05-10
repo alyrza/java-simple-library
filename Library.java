@@ -1,14 +1,15 @@
+import library.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
     private List<Book> books;
-    private List<User> users;
+    private List<User> members;
     private List<Admin> admins;
 
     public Library() {
         this.books = new ArrayList<>();
-        this.users = new ArrayList<>();
+        this.members = new ArrayList<>();
         this.admins = new ArrayList<>();
     }
 
@@ -17,7 +18,7 @@ public class Library {
         return books;
     }
 
-    public List<User> getUsers() {
+    public List<Member> getMembers() {
         return users;
     }
 
@@ -25,7 +26,7 @@ public class Library {
         return admins;
     }
 
-    // Methods for adding and removing books, users and admins
+    // Methods for adding and removing books, members and admins
     public void addBook(Book book) {
         this.books.add(book);
     }
@@ -34,12 +35,12 @@ public class Library {
         this.books.remove(book);
     }
 
-    public void addUser(User user) {
-        this.users.add(user);
+    public void addMember(Member member) {
+        this.members.add(member);
     }
 
-    public void removeUser(User user) {
-        this.users.remove(user);
+    public void removeMember(Member member) {
+        this.members.remove(member);
     }
 
     public void addAdmin(Admin admin) {
