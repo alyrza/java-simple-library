@@ -18,8 +18,8 @@ public class Main {
         library.addMember(member2);
 
         // Add some admins to the library
-        Admin admin1 = new Admin("alireza1", "janesmith@example.com");
-        Admin admin2 = new Admin("alireza2", "johnsmith@example.com");
+        Admin admin1 = new Admin("alireza1", "alireza1@example.com");
+        Admin admin2 = new Admin("alireza2", "alireza2@example.com");
         library.addAdmin(admin1);
         library.addAdmin(admin2);
 
